@@ -1452,8 +1452,7 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
-			
-			border-top: 1px solid light-gray;
+			border: 0.5px solid lightgray;
 			padding: 5px;
 			
 		}
