@@ -1453,6 +1453,7 @@ input, select, textarea {
 			position: relative;
 			opacity: 1.0;
 			
+			border-top: 1px solid light-gray;
 			padding: 5px;
 			
 		}
@@ -1460,7 +1461,7 @@ input, select, textarea {
 			.gallery article .image {
 				margin: 0;
 				display: block;
-				margin-top: 10px;
+				
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -2269,7 +2270,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/IMG_0397.jpeg");
+		background: url("images/overlay.png"), url("../../images/kari-shea-1SAnrIxw5OY-unsplash.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
