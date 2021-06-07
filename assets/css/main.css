@@ -1452,7 +1452,7 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
-			border: 0.2px solid lightgrey;
+			margin-top: 5px;
 			padding: 5px;
 			
 		}
