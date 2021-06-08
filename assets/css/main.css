@@ -1461,19 +1461,32 @@ input, select, textarea {
 		}
 			.gallery-title-div {
 				width: 100%;
-				color: rgb(56, 70, 74)
+				color: rgb(56, 70, 74);
+				
 			}
 
 			.gallery-title-div-p {
 				color: rgb(56, 70, 74);
 				font-size: 30px;
 				font-weight: bold;
+				margin-bottom: 5px;
 			
-				
 			}
 
-			.gallery-title-div-p:hover{
+			.gallery-title-div-p:hover,
+			.gallery-links > a:hover
+			{
 				color: rgb(168, 207, 164);
+			}
+
+			.gallery-links{
+				padding: 5px;
+				text-decoration: none;
+			}
+
+			.gallery-links > a {
+				text-decoration: none;
+				color: rgb(56, 70, 74);
 			}
 
 			.gallery article .image {
