@@ -1245,6 +1245,7 @@ input, select, textarea {
 		background: #fff;
 		padding-bottom: 3em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
+		
 	}
 
 		.poptrox-popup .loader {
@@ -1294,6 +1295,7 @@ input, select, textarea {
 			cursor: default;
 			z-index: 1;
 			font-size: 0.9em;
+			height: auto;
 		}
 
 		.poptrox-popup .nav-next,
@@ -1455,11 +1457,29 @@ input, select, textarea {
 			border: 0.5px solid lightgray;
 			padding: 5px;
 			
+			
 		}
+			.gallery-title-div {
+				width: 100%;
+				color: rgb(56, 70, 74)
+			}
+
+			.gallery-title-div-p {
+				color: rgb(56, 70, 74);
+				font-size: 30px;
+				font-weight: bold;
+			
+				
+			}
+
+			.gallery-title-div-p:hover{
+				color: rgb(168, 207, 164);
+			}
 
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				
 				
 			}
 
@@ -2289,6 +2309,11 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+		
+	}
+
+	.contact-links {
+		margin: -10px;
 	}
 
 		#contact .box {
@@ -2301,6 +2326,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			margin-bottom: 20px;
 		}
 
 		#contact.inactive .box {
@@ -2325,3 +2351,4 @@ input, select, textarea {
 			}
 
 		}
+
