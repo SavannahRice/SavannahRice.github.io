@@ -2289,11 +2289,31 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/kari-shea-1SAnrIxw5OY-unsplash.jpg");
+		background: url("images/overlay.png"), url("../../images/IMG_0397.jpeg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+	#profile-photo-div{
+		width: 200px;
+		height: 200px;
+		position: relative;
+		overflow: hidden;
+		border-radius: 50%;
+		
+
+	}
+
+	#profile-photo{
+		display: inline;
+  margin: 0 auto;
+  /* margin-left: -25%;  */
+  height: 100%;
+  width: auto;
+
+	}
+
 
 /* Two */
 
